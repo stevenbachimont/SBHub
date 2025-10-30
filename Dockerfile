@@ -12,4 +12,4 @@ WORKDIR /app
 COPY --from=builder /app .
 ENV NODE_ENV=production
 EXPOSE 4173
-CMD ["npx", "svelte-kit", "preview", "--host", "0.0.0.0"]
+CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0", "--port", "4173"]
