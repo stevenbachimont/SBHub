@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+build/
+dist/
+.svelte-kit/
+
+# Vite cache
+node_modules/.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Coverage / tests
+coverage/
+
+# Adapters / platforms (optional)
+.vercel/
+.netlify/
+
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Ignorer les exécutables/binaires uploadés pour chaque app
+downloads/*/mac/*
+downloads/*/windows/*
+downloads/*/linux/*

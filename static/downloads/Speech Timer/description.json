@@ -1,0 +1,21 @@
+{
+	"name": "Speech Timer",
+	"tagline": "Chronométrez vos prises de parole avec élégance",
+	"description": "Speech Timer vous aide à préparer et gérer vos discours, présentations et concours d'éloquence. Définissez des paliers de temps, recevez des alertes visuelles et gardez l'historique de vos sessions.",
+	"features": [
+		"Paliers de temps personnalisables (vert / orange / rouge)",
+		"Alertes visuelles discrètes et sons optionnels",
+		"Mode entraînement et mode live",
+		"Historique des sessions et export des résultats",
+		"Interface minimaliste, thème sombre"
+	],
+	"version": "3.0.0",
+	"updatedAt": "2025-10-30T00:00:00.000Z",
+	"links": {
+		"Developper website": "https://stevenbachimont.com",
+		"support": "mailto:contact@stevenbachimont.com"
+	},
+	"notes": "Astuce: utilisez le mode entraînement pour pré-configurer vos paliers avant une session live."
+}
+
+
