@@ -3,6 +3,9 @@ import { sveltekit } from '@sveltejs/kit/vite';
 
 export default defineConfig({
 	plugins: [sveltekit()],
+	preview: {
+		allowedHosts: ['telechargements.stevenbachimont.com']
+	},
 	test: {
 		expect: { requireAssertions: true },
 		projects: [
