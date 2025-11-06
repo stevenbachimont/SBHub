@@ -113,7 +113,8 @@ export const load: PageServerLoad = async () => {
 			if (!pStat.isDirectory()) continue;
 			const latest = await pickLatestFileInfo(platformPath);
 			if (latest) {
-				latest.url = `/downloads/${appName}/${platform}/${latest.name}`;
+				// Utiliser la route API pour les téléchargements (évite le blocage Chrome)
+				latest.url = `/api/download/${appName}/${platform}/${latest.name}`;
 				platformEntries[platform] = latest;
 			}
 		}
